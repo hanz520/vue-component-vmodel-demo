@@ -1,29 +1,10 @@
 # vue-component-vmodel-demo
-
-## Project setup
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+yarn serve
+yarn build
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+1. 用 `model` 和 `sync` 实现封装组件的双向绑定
+  
+2. 用 `$listeners` 实现父组件传递的事件监听
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
